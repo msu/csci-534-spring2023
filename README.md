@@ -312,13 +312,13 @@ which marijuana is legal or has been decriminalized.
 
 The lecture schedule is subject to change and will be updated throughout the semester.
 
-| Date | Description               | Quiz             | HW Due               | Recommended Reading                   |
-|------|---------------------------|------------------|----------------------|---------------------------------------|
-| 1/19 | Intro to CG               |                  |                      | DMLN L1, CGAA 1                       |
-| 1/24 | Convex Hulls              |                  |                      | DMLN L2, CGAA 1.1                     |
-| 1/26 | Convex Hulls II           |                  |                      | DMLN L3                               |
-| 1/31 | Segment Intersection      | Q1               |                      | DMLN L4, CGAA 2.1                     |
-| 2/2  | Segment Intersection II   |                  | HW1                  | DMLN L4, CGAA 2.1                     |
+| Date | Description               | Quiz             | HW Due    |  Proj     | Recommended Reading                   |
+|------|---------------------------|------------------|-----------|-----------|---------------------------------------|
+| 1/19 | Intro to CG               |                  |           |           | DMLN L1, CGAA 1                       |
+| 1/24 | Convex Hulls              |                  |           |           | DMLN L2, CGAA 1.1                     |
+| 1/26 | Convex Hulls II           |                  |           |           | DMLN L3                               |
+| 1/31 | Segment Intersection      | Q1               |           |           | DMLN L4, CGAA 2.1                     |
+| 2/2  | Segment Intersection II   |                  | HW1       |           | DMLN L4, CGAA 2.1                     |
 
 Potential upcoming topics:
 
