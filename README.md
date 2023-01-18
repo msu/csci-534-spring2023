@@ -319,7 +319,6 @@ The lecture schedule is subject to change and will be updated throughout the sem
 | 1/26 | Convex Hulls II                                |                  |                      | DMLN L3                                    |
 | 1/31 | Segment Intersection                           | Q1               |                      | DMLN L4, CGAA 2.1                          |
 | 2/2  | Segment Intersection II                        |                  | HW1                  | DMLN L4, CGAA 2.1                          |
-|------|------------------------------------------------|------------------|----------------------|--------------------------------------------|
 
 Potential upcoming topics:
 
