@@ -51,7 +51,7 @@ Brittany Terese Fasy, Ph.D.
 
 Required:
 
-* [David Mount's lecture notes](http://www.cs.umd.edu/class/fall2014/cmsc754/Lects/cmsc754-fall14-lects.pdf) (DMLN in reading below)
+* [David Mount's lecture notes](http://www.cs.umd.edu/class/fall2021/cmsc754/Lects/cmsc754-fall-2021-lects.pdf) (DMLN in reading below)
 
 Optional but recommended:
 
