@@ -1,0 +1,110 @@
+%%
+%% This is style file  is modeled after`6046.sty' found here:
+%% https://github.com/wangjohn/mit-courses/tree/master/6.046/takehome
+%%
+%% It includes math macros used for the CLRS book and 6.046 homework header.
+
+\def\fileversion{1.0}
+\def\filedate{2018/01/11}
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{fasy-hw}
+
+\usepackage{enumerate}
+\usepackage{url}
+\usepackage{amssymb, amsmath, amsfonts}
+\usepackage{xcolor}
+
+% ... for formatting algorithms
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+% ... common symbols
+\def\N{{\mathbb N}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\Z{{\mathbb Z}}
+
+% ... for figures
+\usepackage{graphicx,subfig}
+\usepackage{caption}
+\graphicspath{{./}{figs/}}
+
+
+% ... for page formatting
+\setlength{\oddsidemargin}{0pt}
+\setlength{\evensidemargin}{0pt}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{8.5in}
+
+\setlength{\parskip}{1pc}
+\setlength{\parindent}{0pt}
+
+\let\@author\@empty
+\let\@problem\@empty
+\let\@collab\@empty
+\newcommand{\problem}[1]{\def\@problem{#1}}
+\newcommand{\collab}[1]{\def\@collab{#1}}
+
+% ... for labeling pages with HW/problem numbers
+\newcommand{\hwnum}{TODO}
+\newcounter{probnum}
+\newcommand{\nextprob}[1]{
+    \stepcounter{probnum}
+    \clearpage
+    \problem{\hwnum-\arabic{probnum}}
+    \header
+    \paragraph{#1}
+}
+
+% ... Command to make the header box.
+\newcommand{\header}{
+  \begin{center}
+    \hspace*{-0.25in}\framebox[7in]{
+      \vbox{
+        \hbox to 6.25in { \@author \hfill \@date}
+        \vspace{1mm}
+        \hbox to 6.25in {\bf \hfill CSCI 432 Problem \@problem\ \hfill}
+        \vspace{1mm}
+        \hbox to 6.25in { Collaborators on this problem: {\it \@collab} \hfill}
+      }
+    }
+  \end{center}
+}
+
+% ... checks at the beginning of document
+\AtBeginDocument{
+  \ifx \@author \@empty
+    \@latexerr{You must use \noexpand\author{name} for 432 homework}
+  \fi
+  \ifx \@collab \@empty
+    \@latexerr{You must use \noexpand\collab{names or none} for 432 homework}
+  \fi
+}
+
+%% ... References
+
+\renewcommand{\algref}[1]    {Algorithm~\ref{alg:#1}}
+\newcommand{\figref}[1]     {Figure~\ref{fig:#1}}
+\newcommand{\tabref}[1]     {Table~\ref{tab:#1}}
+\newcommand{\stref}[1]      {Step~\ref{st:#1}}
+\newcommand{\strefs}[2]     {Steps~\ref{st:#1}--\ref{st:#2}}
+\newcommand{\thmref}[1]     {Theorem~\ref{thm:#1}}
+\newcommand{\lemref}[1]     {Lemma~\ref{lem:#1}}
+\newcommand{\corref}[1]     {Corollary~\ref{cor:#1}}
+\renewcommand{\eqref}[1]      {Equation~(\ref{eq:#1})}
+\newcommand{\ineqref}[1]    {Inequality~(\ref{ineq:#1})}
+\newcommand{\invref}[1]     {Invariant~\ref{inv:#1}}
+\newcommand{\defref}[1]     {Definition~\ref{def:#1}}
+\newcommand{\propref}[1]    {Property~\ref{prop:#1}}
+\newcommand{\liref}[1]      {line~\ref{li:#1}}
+\newcommand{\lirefs}[2]     {lines \ref{li:#1}--\ref{li:#2}}
+\newcommand{\defn}[1]       {{\textit{\textbf{\boldmath #1}}}}
+
+% ... theorems, etc.
+\usepackage{amsthm}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+
+% ... for self-notes:
+\newcommand{\todo}[1]{{\color{red}[[\textbf{XXX TODO: }#1]]}}
