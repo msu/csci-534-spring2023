@@ -316,9 +316,16 @@ The lecture schedule is subject to change and will be updated throughout the sem
 |------|---------------------------|------------------|-----------|-----------|---------------------------------------|
 | 1/19 | Intro to CG               |                  |           |           | DMLN L1, CGAA 1                       |
 | 1/24 | Convex Hulls              |                  |           |           | DMLN L2, CGAA 1.1                     |
-| 1/26 | Convex Hulls II           |                  |           |           | DMLN L3                               |
-| 1/31 | Segment Intersection      | Q1               |           |           | DMLN L4, CGAA 2.1                     |
-| 2/2  | Segment Intersection II   |                  | HW1       |           | DMLN L4, CGAA 2.1                     |
+| 1/26 | Convex Hulls II           |                  |           |           | DMLN L2, CGAA 1.1                     |
+| 1/31 | Output-Sensitive CH       | Q1               |           |           | DMLN L3                               |
+| 2/2  | Segment Intersection I    |                  | HW1       |           | DMLN L4, CGAA 2.1                     |
+| 2/7  | Segment Intersection II   |                  |           |           | DMLN L4, CGAA 2.1                     |
+| 2/9  | Triangulations            | Q2               |           |           | DMLN L5, CGAA 3.2                     |
+| 2/14 |                           |                  |           |           |                                       |
+| 2/16 |                           |                  |           |           |                                       |
+| 2/21 |                           |                  |           |           |                                       |
+| 2/23 |                           |                  | HW2       |           |                                       |
+
 
 Potential upcoming topics:
 
