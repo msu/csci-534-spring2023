@@ -321,11 +321,16 @@ The lecture schedule is subject to change and will be updated throughout the sem
 | 2/2  | Segment Intersection I    |                  | HW1       |           | DMLN L4, CGAA 2.1                     |
 | 2/7  | Segment Intersection II   |                  |           |           | DMLN L4, CGAA 2.1                     |
 | 2/9  | Triangulations            | Q2               |           |           | DMLN L5, CGAA 3.2                     |
-| 2/14 |                           |                  |           |           |                                       |
-| 2/16 |                           |                  |           |           |                                       |
-| 2/21 |                           |                  |           |           |                                       |
-| 2/23 |                           |                  | HW2       |           |                                       |
-
+| 2/14 | DCEL DS / triangulate     |                  |           |           | [DCEL](https://en.wikipedia.org/wiki/Doubly_connected_edge_list) and [Quad Edge](https://www.cs.cmu.edu/afs/andrew/scs/cs/15-463/2001/pub/src/a2/quadedge.html) |
+| 2/16 | Triangulating & Guarding  |                  |           |           | DMLN L5, CGAA 3.1-2                   |
+| 2/21 | Halfplanes and Duality    |                  |           |           | DMLN L6, CGAA 4.2                     |
+| 2/23 | Linear Programming        |                  | HW2       |           | DMLN L7, CGAA 4.3-6                   |
+| 2/28 | Trapezoidations I         | Q3               |           |           |                                       |
+| 3/2  | Trapezoidations II        |                  |           |           |                                       |
+| 3/7  | Point Location            |                  | HW3       |           |                                       |
+| 3/9  | Project Proposals         |                  |           |           |                                       |
+| 3/14 | SPRING BREAK!             |                  |           |           |                                       |
+| 3/16 | SPRING BREAK!             |                  |           |           |                                       |
 
 Potential upcoming topics:
 
