@@ -32,7 +32,7 @@ The project will have two tracks:
 * now: Send a direct message on slack or speak with me about a problem that you
   are interested in so that I can point out resources and make sure you are not
   working on something that is too hard or already solved.
-* 9 March: In class, present problem description (at most 5 min).
+* 9 March: (Step 1) In class, present problem description (at most 5 min).
 * 28 March: On slack, direct message me a one page outline and plan
   of attack.  At this point, your project groups are fixed.
 * April 11: On the course's slack channel post a progress report.
