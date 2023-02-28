@@ -78,8 +78,8 @@ Wenk.
 \collab{\todo{}}
 \nextprob{Dual Graph}
 
-Let $P$ be a polygon in $\R^2$.
-How many vertices and edges does the dual graph of a frugal triangulation of $P$
+Let $P$ be a polygon in $\R^2$.  Suppose $P$ has $n$ vertices.
+How many vertices, edges, and triangles does the dual graph of a frugal triangulation of $P$
 have?  (Note: do not include a vertex for the outer face in the dual).  Be sure
 to prove that your claim is correct.
 
@@ -119,7 +119,7 @@ of vertices, including both the outer banks of the river and the islands.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.75\textwidth]{river}
-    \caption{Problem 2: River}
+    \caption{River Flooding Problem}
 \end{figure}
 
 Your friend tells you that the in order to avoid a flood, the width of the river
@@ -154,25 +154,16 @@ sum of vertical lengths (excluding islands) is the smallest.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \collab{\todo{}}
-\nextprob{Randomized Convex Hull}
+\nextprob{Walk-Through}
 
-\begin{enumerate}
+Walk-through the algorithm for triangulating a polygon presented in DMLN L6 on
+the following example.
 
-    \item Describe and analyze an algorithm that computes the
-        convex hull of a set of $n$ points in the plane using randomized
-        incremental construction in expected $\Theta(n \log n)$ time. For this
-        problem, you are welcome to find an algorithm and its analysis on the
-        web, but please cite where you found it, describe it concisely in
-        your own words, and make the analysis very concise. Where does the
-        log-factor come from?
-
-    \item Give an example of a set of points in the plane, and a
-        particular input order, that causes the convex hull algorithm to run in
-        $\Theta(n^2)$ when the points are added in this particular order. Make sure it
-        is clear how your example generalizes to arbitrary values of $n$.
-
-\end{enumerate}
-
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{polygon}
+    \caption{Polygon}
+\end{figure}
 
 \paragraph{Answer}
 
