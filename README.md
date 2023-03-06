@@ -322,15 +322,17 @@ The lecture schedule is subject to change and will be updated throughout the sem
 | 2/7  | Segment Intersection II   |                  |           |           | DMLN L4, CGAA 2.1                     |
 | 2/9  | Triangulations            | Q2               |           |           | DMLN L5, CGAA 3.2                     |
 | 2/14 | DCEL DS / triangulate     |                  |           |           | [DCEL](https://en.wikipedia.org/wiki/Doubly_connected_edge_list) and [Quad Edge](https://www.cs.cmu.edu/afs/andrew/scs/cs/15-463/2001/pub/src/a2/quadedge.html) |
-| 2/16 | Triangulating & Guarding  |                  |           |           | DMLN L5, CGAA 3.1-2                   |
-| 2/21 | Halfplanes and Duality    |                  |           |           | DMLN L6, CGAA 4.2                     |
-| 2/23 | Linear Programming        |                  | HW2       |           | DMLN L7, CGAA 4.3-6                   |
-| 2/28 | Trapezoidations I         | Q3               |           |           |                                       |
-| 3/2  | Trapezoidations II        |                  |           |           |                                       |
-| 3/7  | Point Location            |                  | HW3       |           |                                       |
-| 3/9  | Project Proposals         |                  |           |           |                                       |
+| 2/16 | Triangulating             |                  |           |           | DMLN L5 & L27, CGAA 3.1-2             |
+| 2/21 | Guarding                  |                  |           |           | DMLN L27                              |
+| 2/23 | Halfplanes and Duality    |                  | HW2       |           | DMLN L6                               |
+| 2/28 | Linear Programming        | Q3               |           |           | DMLN L7, CGAA 4.3-6                   |
+| 3/2  | Trapezoidations           |                  |           |           | DMLN L8                               |
+| 3/7  | TBD                       |                  |           |           |                                       |
+| 3/9  | Project Proposals         |                  | HW3       | Step 1    |                                       |
 | 3/14 | SPRING BREAK!             |                  |           |           |                                       |
 | 3/16 | SPRING BREAK!             |                  |           |           |                                       |
+| 3/21 | More Trapezoidations      | Q4               |           |           |                                       |
+| 3/23 | Point Location            |                  |           |           | DMLN L9                               |
 
 Potential upcoming topics:
 
