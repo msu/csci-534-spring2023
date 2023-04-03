@@ -331,8 +331,12 @@ The lecture schedule is subject to change and will be updated throughout the sem
 | 3/9  | Project Proposals         |                  | HW3       | Step 1    |                                       |
 | 3/14 | SPRING BREAK!             |                  |           |           |                                       |
 | 3/16 | SPRING BREAK!             |                  |           |           |                                       |
-| 3/21 | More Trapezoidations      | Q4               |           |           |                                       |
-| 3/23 | Point Location            |                  |           |           | DMLN L9                               |
+| 3/21 | More Trapezoidations      |                  |           |           |                                       |
+| 3/23 | Point Location            |  Q4              |           |           | DMLN L9                               |
+| 3/28 | Voronoi Diagrams          |                  |           |           | DMLN L10                              |
+| 3/30 | Voronoi Diagrams          |                  |           |           |                                       |
+| 4/4  | Delaunay Triangulations   |                  |           |           | DMLN L11                              |
+| 4/6  | Delaunay Triangulations   |  Q5              |           |           | DMLN L11/L12                          |
 
 Potential upcoming topics:
 
