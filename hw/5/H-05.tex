@@ -94,9 +94,14 @@ The following steps
 visit all intersections in this arrangement that are to the right of the path.
 
 \begin{enumerate}[(a)]
-    \item Define an \emph{upper horizon tree} by starting with the edges of the
-        arrangement that cross the path from left to right. At each vertex where
-        two edges collide, only the upper edge continues, as shown in pink in
+    \item Define an \emph{upper horizon tree} (UHT) by starting with the rays defined
+        by the lines of the
+        arrangement starting at the path and towards the right. At each vertex where
+        two rays collide, only the upper ray continues; continue clipping until
+        every vertex of the UHT has two edges on left (between $p$ and the
+        vertex) and one ray going to the right.
+        The resulting UHT is
+        shown in pink in
         \figref{arrangement}. Give an algorithm to
         compute the upper horizon tree in $O(n \log n)$ time.
 
