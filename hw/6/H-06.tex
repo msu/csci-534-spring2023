@@ -1,0 +1,198 @@
+\documentclass{article}
+\usepackage{../../fasy-hw}
+
+\title{Computational Geometry, Homework \hwnum}
+\collab{n/a}
+
+%% Instructor: update these macros:
+\renewcommand{\hwnum}{6}
+\date{due: LDOC}
+
+%% Student: update this macro:
+\author{\todo{Your Name Here}}
+
+\begin{document}
+
+\maketitle
+
+This homework assignment should be
+submitted as a single PDF file to D2L.
+
+General homework expectations:
+\begin{itemize}
+    \item Homework should be typeset using LaTex.
+    \item Answers should be in complete sentences and proofread so that they
+        make sense without seeing the question.
+    \item You will not plagiarize, nor will you share your written solutions
+        with classmates. (But, discussing the questions is highly encouraged).
+    \item List collaborators at the start of each question using the
+        \texttt{collab} command.
+    \item Put your answers where the \texttt{todo} command currently is (and
+        remove the \texttt{todo} macro, but not the word \texttt{Answer}).
+    \item If you are asked to come up with an algorithm, you are
+        expected to give an efficient algorithm (brute-force solutions will not
+        be accepted). With your algorithm, please provide the following:
+        \begin{itemize}
+            \item \emph{What}: A prose explanation of the problem and the algorithm,
+                including a description of the input/output.  Be sure to state
+                your GP assumptions.
+            \item \emph{How}: Describe how the algorithm works clearly.
+                Including pseudocode may helpful.
+            \item \emph{How Fast}: Runtime, along with the derivation.  (Or, at
+                the very least, a proof of termination using a decrementing
+                function).  You only need to specify the space complexity if the
+                problem asks for it.
+           \item \emph{Why}: Brief justification of why the algorithm works.
+               Often, this will include a statement of the loop invariant for each
+               (outer-most) loop, or recursion invariant for each recursive function.
+        \end{itemize}
+\end{itemize}
+
+{\bf David Mount's tips for writing up homework solutions}:
+Remember that your description is intended to be read by a
+human, not a compiler, so conciseness and clarity are preferred over technical
+details.  Unless otherwise stated, you may use any results from class, or
+results from any standard textbook on algorithms and data structures. Also, you
+may use results from geometry that: (1) have been mentioned in class, (2) would
+be known to someone who knows basic geometry or linear algebra, or (3) is
+intuitively obvious. If you are unsure, please feel free to check with me.
+
+Giving careful and rigorous proofs can be quite cumbersome in geometry, and so
+you are encouraged to use intuition and give illustrations whenever appropriate.
+Beware, however, that a poorly drawn figure can make certain erroneous
+hypotheses appear to be ``obviously correct.''
+
+Throughout the semester, unless otherwise stated, you may assume that input
+objects are in general position. For example, you may assume that no two points
+have the same x-coordinate, no three points are collinear, no four points are
+co-circular. Also, unless otherwise stated, you may assume that any geometric
+primitive involving a constant number of objects each of constant complexity can
+be computed in $\Theta(1)$ time
+
+
+{\bf Acknowledgement}: the homework problems were adapted from assignments of David
+Millman, which, in turn, were adaptations of problems by David Mount and Carola
+Wenk.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\collab{\todo{}}
+\nextprob{Redo}
+
+Choose a HW problem that you were a little shaky about your first submission.
+Redo your solution.  If feedback has not yet been given back for this problem,
+ping Brittany for feedback (if you ask for one problem, detailed feedback for
+that will be given within 24 hours).
+
+\paragraph{Answer}
+
+\todo{replace this TODO with your answer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\collab{\todo{}}
+\nextprob{Voronoi Diagrams}
+
+The Voronoi diagram of a set of points in $\R^2$ is the
+projection of the upper envelope of the dual lifted set of planes in $\R^3$.
+What does the projection of the lower envelope correspond to? Similarly, what
+does the projection of the upper convex hull of the points lifted to $\R^3$
+correspond to?
+
+You MAY (but do not need to) answer these questions by researching on the
+internet. Cite the sources you were using and give an explanation in your own
+words
+
+\paragraph{Answer}
+
+\todo{replace this TODO with your answer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\collab{\todo{}}
+\nextprob{Arrangements}
+
+Consider an arrangement $\A$ of six lines $\ell_1, \ell_2, \ldots, \ell_6$ and
+let $f$ be an arbitrary vertex, edge, or face of $\A$. Then $f$ has an
+associated sign vector $(s_1, s_2, s_3, s_4, s_5, s_6)$, where for each $1 \le i
+\le 6$:
+
+$$
+    s_i =
+    \begin{cases}
+        +1, & \text{if $f$ lies above $l_i$} \\
+        0,  & \text{if $f$ lies on $l_i$} \\
+        -1, & \text{if $f$ lies below $l_i$}
+    \end{cases}
+$$
+
+\begin{enumerate}
+
+    \item For each of the sign vectors below, give an arrangement of six lines
+        that has a vertex, edge, or face with this sign vector. Label the lines
+        and mark the vertex, edge, or face. Make the arrangement simple, if
+        possible, or argue why the arrangement cannot be simple.
+        \begin{enumerate}
+            \item $(+1, +1, +1, +1, +1, +1)$
+            \item $(+1, 0, 0, -1, -1, -1)$
+            \item $(-1, 0, 0, -1, +1, -1)$
+            \item $(+1, -1, -1, -1, -1, -1)$
+        \end{enumerate}
+
+        \paragraph{Answer}
+        \todo{replace this TODO with your answer}
+
+
+    \item Can one find a single arrangement of lines that contains a vertex,
+        edge, or face for each of the four sign vectors? If you can, provide an
+        example.  If you cannot, argue why not.
+
+        \paragraph{Answer}
+        \todo{replace this TODO with your answer}
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\collab{\todo{}}
+\nextprob{Advice}
+
+Suppose someone is interested in studying computational geometry, and they just
+reached out to you for advice.  Where would
+you direct them to start learning about the subject? What would you tell them
+are some of the most important concepts that they should learn about? Write an
+email to them to help them get started.
+(Note: your responses here may inform future updates to the CompTaG onboarding
+document for future research students. Any thoughts/ideas are appreciated here!)
+
+\paragraph{Answer}
+\todo{replace this TODO with your answer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\collab{\todo{}}
+\nextprob{Reflection}
+
+Explain to me anything that you tried differently on this homework, focused on
+for improvement of technical writing, or what you would especially like feedback
+on.  It can be something simple like ``Before this class, I was not very aware
+of what tense I was writing in.  For this homework, I tried to focus on writing
+in present tense.'' or something very focused, such as ``I really focused on
+improving my End-condition proofs for loop invariants.''  If you tried something
+and struggled, let me know. Since everyone needs to improve (including me),
+there should be something that you can write about here.  You can base it on
+feedback I gave you, feedback I gave the class, feedback you received from
+someone else, an example of technical writing that you really liked, or anything
+else that motivates you to improve.
+
+\paragraph{Answer}
+
+\todo{replace this TODO with your answer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
